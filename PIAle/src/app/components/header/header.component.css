@@ -1,3 +1,10 @@
 div {
-    background-color: rgb(249, 13, 13);
+    background-color: lightslategray;
+}
+
+app-social {
+    float: right;
+    margin-top: 15px;
+    margin-right: 5px; 
+    
 }
