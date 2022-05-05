@@ -13,6 +13,8 @@ h2, h3 {
     text-align: center;
     padding: 10px;
 }
+
+/*Vista celular*/
 @media (max-width: 576px) {
     h1, h2, h3 {
         text-align: center;
@@ -30,7 +32,7 @@ h2, h3 {
 
 
 }
-
+/*Vista Tablet*/
 @media (min-width: 577px) {
   #fotodeperfil {
     position: absolute;
