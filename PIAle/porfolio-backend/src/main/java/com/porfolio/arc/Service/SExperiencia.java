@@ -44,11 +44,9 @@ public class SExperiencia {
         return rExperiencia.existsById(id);
     }
     
-    public boolean existByNombreE(String nombreE) {
+    public boolean existsByNombreE(String nombreE) {
         return rExperiencia.existsByNombreE(nombreE);
     }
 
-    public boolean existsByNombreE(String nombreE) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+ 
 }

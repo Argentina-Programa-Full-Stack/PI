@@ -7,23 +7,22 @@ package com.porfolio.arc.Dto;
 
 import javax.validation.constraints.NotBlank;
 
-
 public class dtoExperiencia {
     @NotBlank
     private String nombreE;
     @NotBlank
-    private String descrpcionE;
+    private String descripcionE;
     
-    //Constructor
+    //Constructores
 
     public dtoExperiencia() {
     }
 
-    public dtoExperiencia(String nombreE, String descrpcionE) {
+    public dtoExperiencia(String nombreE, String descripcionE) {
         this.nombreE = nombreE;
-        this.descrpcionE = descrpcionE;
+        this.descripcionE = descripcionE;
     }
-    //Getters y setter
+    //Getters & Setters
 
     public String getNombreE() {
         return nombreE;
@@ -33,16 +32,12 @@ public class dtoExperiencia {
         this.nombreE = nombreE;
     }
 
-    public String getDescrpcionE() {
-        return descrpcionE;
-    }
-
-    public void setDescrpcionE(String descrpcionE) {
-        this.descrpcionE = descrpcionE;
-    }
-
     public String getDescripcionE() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return descripcionE;
+    }
+
+    public void setDescripcionE(String descripcionE) {
+        this.descripcionE = descripcionE;
     }
     
 }
