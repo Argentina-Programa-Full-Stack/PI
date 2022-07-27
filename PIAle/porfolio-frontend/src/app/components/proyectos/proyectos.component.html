@@ -1,14 +1,29 @@
 <div class="row"> 
     <h3>Proyectos realizados</h3>
-    <div class="contenedor">
-        <div class="col-sm-12 col-md-7 col-lg-7 parte1">
-        <h4>Proyecto Integrador Argentina Programa</h4>
-        <p>Aute commodo labore non esse. Sint eu est id anim velit id do commodo pariatur duis. Dolor eu anim deserunt proident do ea excepteur velit aute quis aute do. Irure consectetur aliqua veniam cupidatat eiusmod reprehenderit occaecat excepteur anim velit consectetur id nisi duis. Reprehenderit id quis sit do et est duis. </p>    
-        </div>
-        <div class="col-sm-12 col-md-3 col-lg-3 offset-md-1 offset-lg-1 parte2">
-            <a href=""><img src="http://via.placeholder.com/400x200" class="img-fluid"> </a>
-            
-        </div>
-        
-    </div>
+    <div class="col-lg-2">
+        <button type="button" class="btn btn-secondary" routerLink="/nuevoproy" *ngIf="isLogged">
+          Nuevo Proyecto
+        </button>
+      </div>
+      
+      <div class="col lg 1"></div>
+      <div class="col-lg-11">
+        <table class="table table-striped">
+          <tbody>
+            <tr *ngFor="let Proyectos of proy">
+              <td><h4>{{Proyectos.nombreP}}</h4></td>
+              <td>{{Proyectos.descripcionP}}</td>
+              <td *ngIf="isLogged">
+                <button class="btn btn-light" routerLink="/editproy/{{Proyectos.id}}">
+                <i class="bi bi-pen-fill"></i>EDITAR</button>
+              </td>
+              
+              <td *ngIf="isLogged">
+                <button class="btn btn-danger" (click)="delete(Proyectos.id)">
+                <i class="bi bi-eraser-fill"></i>BORRAR</button>
+              </td>
+            </tr> 
+          </tbody> 
+        </table>
+      </div>
 </div>
