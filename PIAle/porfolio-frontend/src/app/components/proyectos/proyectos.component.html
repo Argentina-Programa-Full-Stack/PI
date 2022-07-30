@@ -15,12 +15,12 @@
               <td>{{Proyectos.descripcionP}}</td>
               <td *ngIf="isLogged">
                 <button class="btn btn-light" routerLink="/editproy/{{Proyectos.id}}">
-                <i class="bi bi-pen-fill"></i>EDITAR</button>
+                <i class="bi bi-pencil"></i></button>
               </td>
               
               <td *ngIf="isLogged">
                 <button class="btn btn-danger" (click)="delete(Proyectos.id)">
-                <i class="bi bi-eraser-fill"></i>BORRAR</button>
+                <i class="bi bi-trash"></i></button>
               </td>
             </tr> 
           </tbody> 

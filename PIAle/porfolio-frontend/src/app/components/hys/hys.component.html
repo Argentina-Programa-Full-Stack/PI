@@ -1,13 +1,21 @@
 <div class="row">
   <h2>Hard & Soft Skills</h2>
-  <div class="text-center col-sm-4 col-md-4 col-lg-4">
+  <div class="col-lg-2">
+    <button type="button" class="btn btn-secondary" routerLink="/nuevaskill" *ngIf="isLogged">
+      Nueva Skill
+    </button>
+  </div>
+
+
+  <div *ngFor= "let skill of skill" class="text-center col-sm-4 col-md-4 col-lg-4">
+    
     <circle-progress
-      [percent]="60"
+      [percent]="skill.descripcionS"
       [radius]="85"
       [showUnits]="false"
-      [title]="'HTML+CSS'"
+      [title]="skill.nombreS"
       [showSubtitle]="true"
-      [subtitle]="'60%'"
+      [subtitle]="skill.nombreS" 
       [outerStrokeWidth]="16"
       [innerStrokeWidth]="5"
       [outerStrokeColor]="'#78C000'"
@@ -16,90 +24,15 @@
       [animationDuration]="600"
     >
     </circle-progress>
+
+    <div *ngIf="isLogged">
+      <button class="btn btn-light" routerLink="/editskill/{{skill.id}}">
+      <i class="bi bi-pencil"></i></button>
+      </div>
+    
+    <div *ngIf="isLogged">
+      <button class="btn btn-danger" (click)="delete(skill.id)">
+      <i class="bi bi-trash"></i></button>
+      </div>
+
   </div>
-  <div class="text-center col-sm-4 col-md-4 col-lg-4">
-    <circle-progress
-      [percent]="45"
-      [radius]="85"
-      [showUnits]="false"
-      [title]="'Javascript'"
-      [showSubtitle]="true"
-      [subtitle]="'45%'"
-      [outerStrokeWidth]="16"
-      [innerStrokeWidth]="5"
-      [outerStrokeColor]="'#ffdf00'"
-      [innerStrokeColor]="'#f8f32b'"
-      [animation]="true"
-      [animationDuration]="600"
-    >
-    </circle-progress>
-  </div>
-  <div class="text-center col-sm-4 col-md-4 col-lg-4">
-    <circle-progress
-      [percent]="55"
-      [radius]="85"
-      [showUnits]="false"
-      [title]="'Angular'"
-      [showSubtitle]="true"
-      [subtitle]="'55%'"
-      [outerStrokeWidth]="16"
-      [innerStrokeWidth]="5"
-      [outerStrokeColor]="'#fe2000'"
-      [innerStrokeColor]="'#ff7966'"
-      [animation]="true"
-      [animationDuration]="600"
-    >
-    </circle-progress>
-  </div>
-  <div class="text-center col-sm-4 col-md-4 col-lg-4">
-    <circle-progress
-      [percent]="90"
-      [radius]="85"
-      [showUnits]="false"
-      [title]="'Team Work'"
-      [showSubtitle]="true"
-      [subtitle]="'90%'"
-      [outerStrokeWidth]="16"
-      [innerStrokeWidth]="5"
-      [outerStrokeColor]="'#0092f5'"
-      [innerStrokeColor]="'#75a8ff'"
-      [animation]="true"
-      [animationDuration]="600"
-    >
-    </circle-progress>
-  </div>
-  <div class="text-center col-sm-4 col-md-4 col-lg-4">
-    <circle-progress
-      [percent]="90"
-      [radius]="85"
-      [showUnits]="false"
-      [title]="'Comunicación'"
-      [showSubtitle]="true"
-      [subtitle]="'90%'"
-      [outerStrokeWidth]="16"
-      [innerStrokeWidth]="5"
-      [outerStrokeColor]="'#990053'"
-      [innerStrokeColor]="'#da98ff'"
-      [animation]="true"
-      [animationDuration]="600"
-    >
-    </circle-progress>
-  </div>
-  <div class="text-center col-sm-4 col-md-4 col-lg-4">
-    <circle-progress
-      [percent]="95"
-      [radius]="85"
-      [showUnits]="false"
-      [title]="'Empatía'"
-      [showSubtitle]="true"
-      [subtitle]="'95%'"
-      [outerStrokeWidth]="16"
-      [innerStrokeWidth]="5"
-      [outerStrokeColor]="'#00b988'"
-      [innerStrokeColor]="'#adffe9'"
-      [animation]="true"
-      [animationDuration]="600"
-    >
-    </circle-progress>
-  </div>
-</div>
