@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("skill")
-@CrossOrigin(origins = "https://pintegradorarc.web.app/")
+@CrossOrigin(origins = "https://pintegradorarc.web.app/skill")
 public class CSkills {
     @Autowired
     SSkills sSkills;
