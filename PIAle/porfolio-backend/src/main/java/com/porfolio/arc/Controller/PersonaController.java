@@ -28,7 +28,7 @@ public class PersonaController {
     }
 
     @PreAuthorize("hasRole('ADMIN')")
-    @PostMapping("persona/crear")
+    @PostMapping("/persona/crear")
     public String createPersona(@RequestBody Persona persona) {
         ipersonaService.savePersona(persona);
         return "El usuario fue creado correctamente";
@@ -57,7 +57,7 @@ public class PersonaController {
         return persona;
     }
 
-    @GetMapping("persona/traer/perfil")
+    @GetMapping("/persona/traer/perfil")
     public Persona findPersona() {
         return ipersonaService.findPersona((long) 1);
     }
