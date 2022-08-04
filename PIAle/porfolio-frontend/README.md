@@ -1,27 +1,46 @@
-# PIAle
+# Porfolio Alejandra R. de Cajal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+## Descripción del proyecto
 
-## Development server
+Este proyecto corresponde al Proyecto Integrador Porfolio Web Full Stack.
+Correspondiente al programa "Argentina Programa", segunda etapa "Yo Programo".
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Secciones
 
-## Code scaffolding
+* Header: Redes sociales y botón de login.
+* Acerca de mi.
+* Experiencia laboral.
+* Educación.
+* Hard & Soft Skills.
+* Proyectos realizados.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Estado del proyecto
+Primera versión funcional para ser evaluada - Agosto 2022.
 
-## Build
+## Funcionalidades
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* Ingreso al modo de edición mediante botón LOGIN con usuario y contraseña.
+* CRUD para las secciones de Experiencia laboral, Educación, Hard & Soft Skills y Proyectos realizados.
+* Botón de LOGOUT para salir del modo de edición.
 
-## Running unit tests
+## Tecnologías utilizadas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+FRONTEND
+![HTML CSS JS](https://www.nicepng.com/png/detail/34-345908_html-css-icon-png.png)
+![Bootstrap](https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png)
+![ANGULAR](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png)
 
-## Running end-to-end tests
+BACKEND
+![SpringBoot](https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/spring-boot-1_5zDxm9B.jpg)
+![Java](https://www.zma.la/wp-content/uploads/2016/10/java-icon.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+BASE DE DATOS
+![MySQL](https://www.svgrepo.com/show/303251/mysql-logo.svg)
 
-## Further help
+REPOSITORIO
+![GitHub](https://cdn-icons-png.flaticon.com/512/25/25231.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+SERVIDORES
+![Heroku](https://seekvectorlogo.net/wp-content/uploads/2018/12/heroku-vector-logo.png)
+![Firebase](https://firebase.google.com/static/images/brand-guidelines/logo-standard.png?hl=es-419)
+
