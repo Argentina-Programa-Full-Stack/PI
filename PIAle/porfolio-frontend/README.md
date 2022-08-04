@@ -1,5 +1,6 @@
 # Porfolio Alejandra R. de Cajal
-[logo]: https://user-images.githubusercontent.com/95290077/182883684-90d38cd3-d27b-4a91-a9b7-adf208279dba.png "Logo Title Text 2"
+![Portada](https://user-images.githubusercontent.com/95290077/182887684-7b379991-7cab-403d-997e-6c9dba0588ad.svg )
+
 
 
 ## Descripción del proyecto
