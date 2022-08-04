@@ -25,25 +25,28 @@ Primera versión funcional para ser evaluada - Agosto 2022.
 * Ingreso al modo de edición mediante botón LOGIN con usuario y contraseña.
 * CRUD para las secciones de Experiencia laboral, Educación, Hard & Soft Skills y Proyectos realizados.
 * Botón de LOGOUT para salir del modo de edición.
+* Implementación de JWT
 
-## Tecnologías utilizadas
+## Herramientas y Tecnologías utilizadas
 
 FRONTEND
-![HTML CSS JS](https://www.nicepng.com/png/detail/34-345908_html-css-icon-png.png)
-![Bootstrap](https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png)
-![ANGULAR](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png)
+* Visual Studio Code
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
+* Angular
+* Firebase
 
 BACKEND
-![SpringBoot](https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/spring-boot-1_5zDxm9B.jpg)
-![Java](https://www.zma.la/wp-content/uploads/2016/10/java-icon.png)
+* Netbeans
+* SpringBoot
+* Java
+* Heroku
 
 BASE DE DATOS
-![MySQL](https://www.svgrepo.com/show/303251/mysql-logo.svg)
+* MySQL
+* Clever Cloud 
 
-REPOSITORIO
-![GitHub](https://cdn-icons-png.flaticon.com/512/25/25231.png)
-
-SERVIDORES
-![Heroku](https://seekvectorlogo.net/wp-content/uploads/2018/12/heroku-vector-logo.png)
-![Firebase](https://firebase.google.com/static/images/brand-guidelines/logo-standard.png?hl=es-419)
+(https://user-images.githubusercontent.com/95290077/182890430-cc97f567-2948-4ffa-80d5-d28126fb5c12.svg
 
