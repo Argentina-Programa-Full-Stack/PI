@@ -1,4 +1,5 @@
 # Porfolio Alejandra R. de Cajal
+![Imagen porfolio](https://user-images.githubusercontent.com/95290077/182883684-90d38cd3-d27b-4a91-a9b7-adf208279dba.png)
 
 ## Descripción del proyecto
 
